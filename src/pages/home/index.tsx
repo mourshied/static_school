@@ -2,7 +2,6 @@ import React from "react";
 import PropTypes from "prop-types";
 
 import WelcomeBanner from "@/components/pages/home/banner";
-import SchoolPicture1 from "../../assets/images/photo/1.JPG"
 function Home({
   title,
   subtitle,
@@ -15,6 +14,9 @@ function Home({
     <>
     {/* // TODO: update the welcomeBanner to include autoslide image carrousole from assets/images/photo_gallery */}
         <WelcomeBanner title={title} subtitle={subtitle} images={images}/>
+        {/* TODO: Create component to show all important links */}
+        {/* Create component to show Annountments */}
+        {/* Create Components to show all the calendar events*/}
     </>
   );
 }
