@@ -4,5 +4,8 @@
   "vsicons.projectDetection.disableDetect": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "eslint.autoFixOnSave": true,
-  "tslint.autoFixOnSave": true
+  "tslint.autoFixOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  }
 }
